@@ -1,0 +1,40 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.content-con1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-con2 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.content-random img {
+    width: 40%;
+    border-radius: 5px;
+}
+
+
+.content-show1 img {
+    width: 40%;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    margin-right: 20px;
+}
+
+.content-show2 img {
+    width: 40%;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    margin-right: 20px;
+}
+
+.content-r {
+    padding: 2rem;
+    text-align: left;
+}

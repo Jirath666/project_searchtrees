@@ -1,0 +1,25 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+.banner-bg {
+    height: 500px;
+    background: url(https://images.unsplash.com/photo-1620463107816-9e070487bc93?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1451&q=80) no-repeat;
+    background-size: cover;
+} 
+
+.banner-con {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 500px;
+}
+
+.banner-text {
+    color:white;
+    text-align: center;
+
+}
+
