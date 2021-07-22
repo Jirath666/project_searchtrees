@@ -8,9 +8,11 @@ let bannerData = {
 
 function Banner() {
     return (
-        <div className="overflow">
+        
         <div className="banner-bg">
+            <div className="overlay"></div>
             <div className="container">
+                
                 <div className="banner-con">
                     <div className="banner-text">
                         <h1>{bannerData.title}</h1>
@@ -18,7 +20,7 @@ function Banner() {
                                {bannerData.desc}
                            </p>
                            
-                    </div>
+                    
                     </div>
                 </div>
             </div>

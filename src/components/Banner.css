@@ -20,6 +20,27 @@
 .banner-text {
     color:white;
     text-align: center;
+    position: relative;
+    z-index: 10;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0  , 0, 0.5);
 
 }
 
+@media screen and (max-width: 480px) {
+    .banner-text {
+        padding: 0 2rem;
+    }
+
+    .banner-bg {
+        text-align: center;
+        justify-content: center;
+    }
+}

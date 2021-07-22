@@ -1,3 +1,8 @@
+* {
+    position: relative;
+    z-index: 10;
+}
+
 .container {
     max-width: 960px;
     margin: 0 auto;
@@ -41,6 +46,7 @@
 }
 
 @media screen and (max-width: 480px) {
+    
     .mobile-menu {
         margin-top: 10px;
         display: block;

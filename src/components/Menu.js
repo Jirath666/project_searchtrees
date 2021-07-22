@@ -24,25 +24,25 @@ function Menu() {
                         <a href="#">SearchTrees <FaLeaf/></a>
                     </div>
                     <ul className={click ? "menu active" : " menu"}>
-                        <li className="menu-link" onClick={closeMobileMenu}>
-                            <a href="#">Home</a>
+                        <li item="Home" className="menu-link" onClick={closeMobileMenu}>
+                            <a href="./index.html">Home</a>
                         </li>
-                        <li className="menu-link" onClick={closeMobileMenu}>
+                        <li item="Search" className="menu-link" onClick={closeMobileMenu}>
                             <a href="#">Search</a>
                         </li>
-                        <li className="menu-link" onClick={closeMobileMenu}>
+                        <li item="Know" className="menu-link" onClick={closeMobileMenu}>
                             <a href="#">Know</a>
                         </li>
-                        <li className="menu-link" onClick={closeMobileMenu}>
+                        <li item="About" className="menu-link" onClick={closeMobileMenu}>
                             <a href="#">About</a>
                         </li>
-                        <li className="menu-link" onClick={closeMobileMenu}>
+                        <li item="Login" className="menu-link" onClick={closeMobileMenu}>
                             <a href="#">Login</a>
                         </li>
                         
                     </ul>
                     <div className="mobile-menu" onClick={handleClick}>
-                        {click ?(
+                        {click ? (
                             <FiX/>
                         ) : (
                             <FiMenu/>
